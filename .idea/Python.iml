@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Tasks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Messenger" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ Additional" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Functions" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

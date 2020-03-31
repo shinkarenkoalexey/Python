@@ -1,15 +1,16 @@
 import random
+
 x = random.randint(1, 10)
 xx = 0
 y = int(input("Введите количество попыток - "))
-f = "False"
+f = False
 while y > 0:
     y -= 1
     print("Попробуйте угадать: ")
     chislo = int(input())
     if chislo == x:
         print("Вы угадали")
-        f = "True"
+        f = True
         break
     else:
         print("Не угадали")
@@ -18,5 +19,5 @@ while y > 0:
         if chislo < x:
             print("Загаданное число больше вашего")
 
-if f == "False":
+if not f:
     print("Рандомное число -", x)
