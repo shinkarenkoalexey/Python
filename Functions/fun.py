@@ -1,3 +1,4 @@
+# Нахождение максимального или минимального
 def max_and_min(li: list, word: str):
     li.sort()
     ma = li[-1]
@@ -7,7 +8,7 @@ def max_and_min(li: list, word: str):
     elif word == "min":
         return mi
 
-
+# Малькимальная цифра из числа
 def max_figural(number: int):
     lis = []
     number = str(number)
@@ -16,7 +17,7 @@ def max_figural(number: int):
     lis.sort()
     return lis[-1]
 
-
+# Число наоборот
 def converse(number: int):
     s = ""
     number = str(number)
@@ -24,5 +25,4 @@ def converse(number: int):
         i += 1
         s += number[-i]
     return s
-
 
