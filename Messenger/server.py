@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return 'Welcome to messenger Main Page http://127.0.0.1:5000/status'
+    return 'Welcome to messenger Main Page'
 
 
 
