@@ -1,13 +1,14 @@
 import fun
-s = []
-for i in range(0, 3):
-    x = int(input("Введите число "))
-    s.append(x)
+s = [1, 23, 7, 0, -3, 17]
+s1 = [3, 4, 5]
 print("Максимальное -", fun.max_and_min(s, "max"))
 print("Минимальное -", fun.max_and_min(s, "min"))
-conv = int(input("Введите число "))
-print("Ваше число наоборот -", fun.converse(conv))
-print("Наибольшая цифра в числе -", fun.max_figural(conv))
+con = int(input("Введите число "))
+print("Ваше число наоборот -", fun.converse(con))
+print("Наибольшая цифра в числе -", fun.max_figural(con))
+print("Среднее геометрическое -", fun.geo_average(s1))
+print("Среднее арифметическое -", fun.average(s1))
+
 
 
 

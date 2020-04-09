@@ -13,5 +13,5 @@ for j in range(0, h+1):
             print(end='\n')
             x += 1
             d -= 1
-    else: print('{}{}||{}{}'.format(s1*h, s*0, s*0, s1*h), end='')
-
+    else:
+        print('{}{}||{}{}'.format(s1*h, s*0, s*0, s1*h), end='')

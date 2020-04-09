@@ -26,3 +26,20 @@ def converse(number: int):
         s += number[-i]
     return s
 
+# Среднее арифметическое
+def average(li: list):
+    n = len(li)
+    s = 0
+    while n > 0:
+        n -= 1
+        s += li[n-1]
+    return s/len(li)
+
+# Среднее геометрическое
+def geo_average(li: list):
+    n = len(li)
+    s = 1
+    while n > 0:
+        n -= 1
+        s *= li[n-1]**(1/len(li))
+    return s
