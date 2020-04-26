@@ -18,9 +18,8 @@ def max_figural(number: int):
     return lis[-1]
 
 # Число наоборот
-def converse(number: int):
+def converse(number: str):
     s = ""
-    number = str(number)
     for i in range(len(number)):
         i += 1
         s += number[-i]
