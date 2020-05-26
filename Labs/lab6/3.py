@@ -1,7 +1,9 @@
-def degree(y):
-    return (lambda x: x ** x)(y)
+def degree(y, lam):
+    return lam(y)
 
 
-print(degree(3))
+z = lambda x: x ** x
+print(degree(3, z))
+
 
 

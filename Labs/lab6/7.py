@@ -15,5 +15,5 @@ precipitation = {
 
 precipitation_sort = sorted(precipitation.items(), key=lambda i: i[1])
 
-for j in precipitation_sort[::-1]:
+for j in precipitation_sort:
     print(j[0], ":", j[1])

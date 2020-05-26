@@ -8,13 +8,13 @@ def match(letter: str, word: str):
     for i in letter:
         if i in word:
             c += word.count(i)
-    if c == len(word):
+    if c >= len(word):
         print("Возможно")
     else:
         print("Невозможно")
 
 
-ll = "е, т, ш, о, д, и, ч, к, а, н, г, м"
+ll = "е, т, ш, о, д, и, ч, к, а, а, н, г, м"
 w = "методичка"
 match(ll, w)
 
